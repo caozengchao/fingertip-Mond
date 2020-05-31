@@ -1,0 +1,122 @@
+/*
+* @Author: caozengchao
+* @Date:   2020-05-30 22:15:09
+* @Last Modified by:   caozengchao
+* @Last Modified time: 2020-05-31 08:53:15
+*/
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clear:after{
+    content:"";
+    display: block;
+    clear: both;
+    height: 0;
+}
+.nav{
+	width: 1200px;
+	height: 101px;
+	margin: 0 auto;
+}
+.nav img{
+	margin-left: 9px;
+    margin-top: 33px;
+    float: left;
+    width: 170px;
+    height: 39px;
+    margin-right: 71px;
+}
+.nav>a{
+	margin-right: 12px;
+	margin-left: 31px;
+	line-height: 101px;
+	float: right;
+	font-size:14px;
+	font-weight:400;
+	color:rgba(102,102,102,1);
+}
+.nav1{
+	float: left;
+	margin-top: 31px;
+}
+.nav1 li{
+    float: left;
+    line-height: 39px;
+	margin-right: 28px;
+}
+.nav1 li a{
+    font-size:18px;
+	font-weight:400;
+	color:rgba(5,5,5,1);
+    float: left;
+    text-align: center;
+	width: 54px;
+    height: 37px;
+}
+.nav1 ul .job{
+	width: 94px;
+	margin-right: 0;
+}
+.nav1 li  .last{
+	width: 94px;
+}
+.nav1 li a:hover{
+    border-bottom: 2px solid #00A4FF;
+}
+.form{
+	float: right;
+	margin-top: 31px;
+}
+.search{
+	float: left;
+	width: 342px;
+	height: 15px;
+	padding-top: 13px;
+	padding-bottom: 12px;
+	padding-left: 19px;
+	border: 1px solid #00A4FF;
+
+}
+.submit{
+	float: left;
+	width: 50px;
+	height: 42px;
+	background:rgba(0,164,255,1) url(./imgs/soulogo.png) no-repeat center center;
+	border: 1px solid rgba(0,164,255,1) ;
+	vertical-align: baseline;
+} 
+.Banner{
+	width: 100%;
+	height: 420px;
+	background:#1caad6;
+}  
+.banner{
+	width: 100%;
+	height: 420px;
+	background:rgba(28,3,108,1);
+	position: relative;
+}
+.banner li{
+	width: 100%;
+	height: 420px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.banner .banner-one{
+
+	background:url(imgs/banner1.png) no-repeat center center;
+
+}
+.banner .banner-two{
+
+	background:url(imgs/banner2.jpg) no-repeat center center;
+
+}
