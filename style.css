@@ -2,7 +2,7 @@
 * @Author: caozengchao
 * @Date:   2020-05-30 22:15:09
 * @Last Modified by:   caozengchao
-* @Last Modified time: 2020-05-31 14:41:13
+* @Last Modified time: 2020-05-31 15:11:00
 */
 body{
 	background: #f3f5f7;
@@ -406,12 +406,31 @@ a{
 .qwe{
 	width: 1200px;
 	margin: 0 auto;
+	position: relative;
 }
 .qwe .lll{
-	float: left;
-	margin-top: 124px;
-	padding-left: 21px;
+	
 
+}
+.qwe .bankuai1{
+	position:absolute;
+	top: 124px;
+	left: 21px;
+}
+.qwe .bankuai2{
+	position:absolute;
+	top: 124px;
+	left: 667px
+}
+.LT .qwe .bankuai3{
+	position:absolute;
+	top: 124px;
+	left: 891px;
+}
+.qwe .bankuai4{
+	position:absolute;
+	top: 124px;
+	right:28px;
 }
 .xlzx{
 	font-size:36px;
@@ -439,26 +458,16 @@ a{
 	color:rgba(0,164,255,1);
 	line-height:36px;
 }
-.qwe .bankuai2{
-	padding-left: 0;
-	margin-left: 272px
-}
-.bankuai2 .a1{
+.bk2 .a1{
 	font-size:16px;
 	font-weight:400;
 	color:rgba(51,51,51,1);
 	line-height:21px;
 	margin-bottom: 15px;
 }
-.bankuai2 a{
+.bk2 a{
 	font-size:12px;
 	font-weight:400;
 	color:rgba(51,51,51,1);
 	line-height:21px
-}
-.qwe .bankuai3{
-	margin-left: 146px;
-}
-.qwe .bankuai4{
-	margin-left: 121px;
 }
